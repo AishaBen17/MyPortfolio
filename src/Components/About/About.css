@@ -1,0 +1,160 @@
+.about { 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 80px;
+    padding: 80px 0;  
+    margin: 0 170px; 
+}
+
+.about-sections {
+    display: flex;
+    gap: 80px;
+}
+
+.about-left img {
+    width: 400px;
+    
+}
+
+.about-right {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.about-para {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+   
+}
+.about-para p{
+    text-align: justify;
+     font-size: 16px;
+}
+
+/* Skills Icons */
+.skills-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 30px;
+    margin-top: 10px;
+}
+
+.skill-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 50px;
+    color: #FB53DC;
+    transition: transform 0.3s ease;
+}
+
+.skill-icon p {
+    margin-top: 10px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+}
+
+.skill-icon:hover {
+    transform: scale(1.1);
+    color: #ee96a8ff;
+}
+
+
+
+
+/* Responsive */
+@media(max-width: 768px) {
+    .about {
+        margin: 50px 30px;
+        gap: 60px;
+        align-items: start;
+    }
+
+    .about-sections {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+ 
+       .about-left img {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: auto;
+    ;
+  }
+    
+
+    .about-para {
+        font-size: 16px;
+        line-height: 28px;
+    }
+
+    .skills-icons {
+        justify-content: center;
+        gap: 30px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    .skill-icon {
+        font-size: 45px;
+    }
+
+    .skill-icon p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px) {
+  .about {
+    margin: 40px 20px;
+    gap: 40px;
+  }
+
+  .about-para {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .about-left img {
+    width: 100%;
+    max-width: 300px;
+    display: block;
+    margin: auto;
+  }
+  .skills-icons {
+    grid-template-columns: 1fr 1fr  1fr 1fr;
+    gap: 20px;
+  }
+
+  .skill-icon {
+    font-size: 36px;
+  }
+
+  .skill-icon p {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 1024px) {
+ 
+
+    .about-sections {
+        flex-direction: column;
+        gap: 50px;
+    }
+ 
+  .about-left img {
+    width: 100%;
+    max-width: 200px;
+    display: block;
+    margin: auto;
+  }
+}

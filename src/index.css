@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: rgb(46, 2, 56);
+  color: white;
+  font-family: "Nunito", sans-serif;
+  overflow-x: hidden;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+/* * {
+  outline: 1px solid red;
+} */
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #eee;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
+  border-radius: 4px;
+  border: 1px solid #fff;
+}
