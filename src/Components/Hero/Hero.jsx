@@ -6,7 +6,7 @@ import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Hero = () => {
   return (
-    <section id="home" className="hero" data-aos="zoom-in-up">
+    <section id="home" className="hero">
       <div className="hero-img-container">
         <img src={profile_img} alt="profile" className="hero-img" />
       </div>

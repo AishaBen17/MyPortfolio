@@ -9,6 +9,8 @@
   background-color: #605663;
   border-radius: 10px;
   padding: 10px 10px;
+  
+  
 }
 
 .navbar-logo {
@@ -27,7 +29,7 @@
 .nav-connect {
   padding: 10px 20px;
   border-radius: 50px;
-  background: linear-gradient(267deg, #C471ED 0%, #d3444e 100%);
+  background: linear-gradient(267deg, #c471ed 0%, #d3444e 100%);
   font-size: 20px;
   cursor: pointer;
   transition: 0.5s;
@@ -60,18 +62,16 @@
 }
 
 /* ----------- Responsive ------------- */
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .navbar {
-    margin: 20px;
-    position: relative;
-   
-    
+    margin: 0 10px;
+    padding: 10px;
   }
 
   .navbar-logo {
     width: 100px;
   }
-
+  
   .nav-connect {
     display: none;
   }
@@ -90,18 +90,20 @@
   }
 
   .nav-menu {
-    position: absolute;
-    top: 100%;
-    right: -350px;
-    flex-direction: column;
-    /* قائمة رأسية */
-    align-items: flex-start;
-    background-color: #5a0a43;
-    width: 250px;
-    padding: 20px;
-    gap: 15px;
-    border-radius: 10px;
-    z-index: 1000;
+    position: fixed;
+  top: 0;
+  right: 0;
+  transform: translateX(100%); /* مخفية خارج الشاشة */
+  transition: transform 0.3s ease-in-out;
+  width: 250px;
+  height: 100vh;
+  background-color: #5a0a43;
+  padding: 20px;
+  border-radius: 10px 0 0 10px;
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
   }
 
   .nav-menu li {
