@@ -1,27 +1,56 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-body{
-    height: 100vh;
-    background:rgb(46, 2, 56);
-    color: white;
-font-family: "Nunito", sans-serif;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 
-}
+body {
+  height: 100vh;
+  background: #2a0140;
+  color: white;
+ }
 html {
   scroll-behavior: smooth;
 }
 
- /* * {
+
+
+
+
+/* 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+
+#about,
+#services,
+#work {
+  scroll-margin-top: 100px;
+  margin: 80px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  padding-top: 120px
+  
+}
+
+#contact{
+  scroll-margin-top: 100px;
+  margin: 0px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+  padding-top: 120px
+} */
+
+/* * {
   outline: 1px solid red;
 } */
 
-
 ::-webkit-scrollbar {
-  width: 10px; 
+  width: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -29,7 +58,7 @@ html {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+  background: linear-gradient(267deg, #da7c25 0.36%, #b923e1 102.06%);
   border-radius: 4px;
   border: 1px solid #fff;
 }
