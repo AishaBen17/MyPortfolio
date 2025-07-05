@@ -8,7 +8,7 @@ const mywork_data = [
     w_name: "Shoporia Store",
     w_img: project1_img,
     w_link: "https://shoporia-ben.vercel.app/",
-    w_github: "https://github.com/AishaBen17/portfolio-project",
+    w_github: "https://github.com/AishaBen17/Shoporia",
     w_desc:
       "E-commerce frontend template for fashion store using Tailwind + Flowbite.",
     technologies: ["React", "Tailwind", "Flowbite"],
@@ -18,7 +18,7 @@ const mywork_data = [
     w_name: "QuickStay: Hotel Booking",
     w_img: project2_img,
     w_link: "https://hotel-booking-ben.vercel.app/",
-    w_github: "https://github.com/AishaBen17/portfolio-project",
+    w_github: "https://github.com/AishaBen17/Hotel-Booking",
     w_desc: "Responsive hotel booking app with auth using Clerk + Tailwind.",
     technologies: ["React", "Tailwind", "Clerk"],
   },
@@ -27,8 +27,9 @@ const mywork_data = [
     w_name: "Craftfolio",
     w_img: project3_img,
     w_link: "https://craftfolio-ben-beige.vercel.app/",
-    w_github: "https://github.com/AishaBen17/portfolio-project",
-    w_desc:"Minimal portfolio website template using Bootstrap and JavaScript.",
+    w_github: "https://github.com/AishaBen17/Daniels-project",
+    w_desc:
+      "Minimal portfolio website template using Bootstrap and JavaScript.",
     technologies: ["JavaScript", "Bootstrap"],
   },
   //   {
@@ -40,7 +41,6 @@ const mywork_data = [
   //   w_desc:"Minimal portfolio website template using Bootstrap and JavaScript.",
   //   technologies: ["JavaScript", "Bootstrap"],
   // },
- 
 ];
 
 export default mywork_data;
